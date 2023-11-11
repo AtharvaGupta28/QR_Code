@@ -1,0 +1,23 @@
+
+*{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../images/background.png");
+    gap: 150px;
+}
+.foot{
+    justify-self: center;
+    align-self: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
